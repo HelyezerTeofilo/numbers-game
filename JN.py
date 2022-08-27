@@ -1,9 +1,9 @@
 import random
 escolha = 'S'
-while escolha == 'S':
+while escolha == 'S' or escolha== 's':
   print('\nBem vindo ao jogo da adivinhação!')
   num = random.randint(0,101)
-  adiv = int(input('\n● Escolha um número entre 0 e 100: '))
+  adiv = int(input('\n● Escolha um número inteiro entre 0 e 100: '))
   qtd_tenta = 1
   while adiv != num:
     qtd_tenta+=1
